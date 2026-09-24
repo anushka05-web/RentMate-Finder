@@ -1,0 +1,12 @@
+{
+  "name": "rentmate-finder-root",
+  "version": "1.0.0",
+  "description": "Root control scripts for RentMate Finder",
+  "scripts": {
+    "install-backend": "cd backend && npm install",
+    "install-frontend": "cd frontend && npm install --legacy-peer-deps",
+    "seed-db": "cd backend && npm run seed",
+    "start-backend": "cd backend && npm start",
+    "start-frontend": "cd frontend && npm run dev"
+  }
+}
